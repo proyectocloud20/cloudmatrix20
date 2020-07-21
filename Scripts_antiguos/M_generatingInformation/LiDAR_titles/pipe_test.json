@@ -1,0 +1,21 @@
+{
+	"pipeline":[
+	        {
+	                "type": "readers.las",
+	                "filename": "data/PNOA_2016_MUR-VAL-CLM_562-4216_ORT-CLA-RGB.laz"
+	                
+	        },
+	        {
+	                "type": "filters.reprojection",
+	                "in_srs": "EPSG:25830",
+	                "out_srs": "EPSG:25830"
+	        },
+	        {
+	                "type": "writers.las",
+	                "compression": "laszip",
+	                "filename": "data2/output.laz"
+	        }
+	]
+}
+
+
