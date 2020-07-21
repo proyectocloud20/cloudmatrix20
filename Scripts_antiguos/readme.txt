@@ -1,10 +1,9 @@
    #  Scripts_antiguos
-En el directorio inputs se encuentran todos los scripts para la descarga
-de datos.
+En el directorio inputs se encuentran todos los scripts para la descarga de datos.
 Hay un script por cada fuente de datos a consultar.
-Los resultados de cada uno de los scripts son almacenados en el directorio
-"inputs/results" en su carpeta correspondiente.
+Los resultados de cada uno de los scripts son almacenados en el directorio "inputs/results" en su carpeta correspondiente.
    
+Los scripts del menú raíz están sin clasificar, han sido encontrados en el PC en distintas carpetas.
    
 #requirements
 affine==2.2.2
